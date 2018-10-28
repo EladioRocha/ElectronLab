@@ -11,8 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "electron": "^3.0.6",
     "gkm": "^0.2.0",
     "nodemailer": "^4.6.8"
+  },
+  "devDependencies": {
+    "electron": "^3.0.6"
   }
 }
